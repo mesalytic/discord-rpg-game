@@ -1,0 +1,42 @@
+[2023-02-07 02:42:46,610] [ [39mDEBUG[0;39m ] [JDA RateLimit-Worker 1] n.d.jda.internal.requests.Requester: Received response with following cf-rays: [79586e4c58db2a32-CDG]
+[2023-02-07 02:42:46,690] [ [34mINFO [0;39m ] [com.mesa.gamebot.Main.main()] net.dv8tion.jda.api.JDA: Login Successful!
+[2023-02-07 02:42:46,716] [ [39mDEBUG[0;39m ] [com.mesa.gamebot.Main.main()] n.d.j.a.u.SessionControllerAdapter: Creating new worker handle for shard pool 0
+[2023-02-07 02:42:46,716] [ [39mDEBUG[0;39m ] [com.mesa.gamebot.Main.main()] n.d.j.a.u.SessionControllerAdapter: Running worker
+[2023-02-07 02:42:46,717] [ [39mDEBUG[0;39m ] [ConcurrentSessionController-Worker-0] n.d.j.a.u.SessionControllerAdapter: Running connect node for shard JDA.ShardInfo(currentShard=[0 / 1], totalShards=1)
+[2023-02-07 02:42:46,957] [ [34mINFO [0;39m ] [JDA MainWS-ReadThread] n.d.j.i.requests.WebSocketClient: Connected to WebSocket
+[2023-02-07 02:42:46,958] [ [39mDEBUG[0;39m ] [JDA MainWS-ReadThread] n.d.j.i.requests.WebSocketClient: Connected with gateway intents: 11011011011001111
+[2023-02-07 02:42:46,958] [ [39mDEBUG[0;39m ] [JDA MainWS-ReadThread] n.d.j.i.requests.WebSocketClient: Sending Identify-packet...
+[2023-02-07 02:42:46,968] [ [39mDEBUG[0;39m ] [JDA MainWS-ReadThread] n.d.j.i.requests.WebSocketClient: Got HELLO packet (OP 10). Initializing keep-alive.
+[2023-02-07 02:42:47,159] [ [39mDEBUG[0;39m ] [JDA MainWS-ReadThread] n.d.j.i.handle.GuildSetupController: Setting incomplete count to 0
+[2023-02-07 02:42:47,159] [ [34mINFO [0;39m ] [JDA MainWS-ReadThread] net.dv8tion.jda.api.JDA: Finished Loading!
+[2023-02-07 02:42:47,222] [ [39mDEBUG[0;39m ] [JDA Gateway-Worker 1] n.d.j.i.requests.WebSocketClient: Sending normal message {"op":3,"d":{"activities":[{"name":"cc","type":0}],"afk":false,"since":1675734167203,"status":"online"}}
+[2023-02-07 02:43:16,318] [ [39mDEBUG[0;39m ] [JDA RateLimit-Worker 2] n.d.j.internal.requests.RateLimiter: Removed 1 expired buckets
+[2023-02-07 02:43:27,050] [ [39mDEBUG[0;39m ] [JDA MainWS-ReadThread] n.d.j.i.entities.EntityBuilder: Finished setup for guild with a null owner. GuildId: 418433461817180180 OwnerId: 604779545018761237
+[2023-02-07 02:43:27,054] [ [39mDEBUG[0;39m ] [JDA MainWS-ReadThread] n.d.j.i.handle.GuildSetupController: Finished setup for guild 418433461817180180 firing cached events 0
+[2023-02-07 02:43:27,055] [ [39mDEBUG[0;39m ] [JDA MainWS-ReadThread] n.d.j.i.requests.WebSocketClient: Unrecognized event:
+{"op":0,"s":3,"t":"GUILD_AUDIT_LOG_ENTRY_CREATE","d":{"user_id":"604779545018761237","action_type":28,"guild_id":"418433461817180180","target_id":"1064257397335535647","id":"1072331728129097828"}}
+[2023-02-07 02:43:27,308] [ [39mDEBUG[0;39m ] [JDA MainWS-ReadThread] n.d.j.i.requests.WebSocketClient: Unrecognized event:
+{"op":0,"s":5,"t":"GUILD_AUDIT_LOG_ENTRY_CREATE","d":{"user_id":"437190817195753472","action_type":25,"changes":[{"new_value":[{"name":"Members","id":"436226009549897729"}],"key":"$add"}],"guild_id":"418433461817180180","target_id":"1064257397335535647","id":"1072331728942800977"}}
+[2023-02-07 02:45:20,131] [ [39mDEBUG[0;39m ] [JDA RateLimit-Worker 1] n.d.jda.internal.requests.Requester: Received response with following cf-rays: [7958720be8d6d67a-CDG]
+[2023-02-07 02:45:20,210] [ [34mINFO [0;39m ] [com.mesa.gamebot.Main.main()] net.dv8tion.jda.api.JDA: Login Successful!
+[2023-02-07 02:45:20,235] [ [39mDEBUG[0;39m ] [com.mesa.gamebot.Main.main()] n.d.j.a.u.SessionControllerAdapter: Creating new worker handle for shard pool 0
+[2023-02-07 02:45:20,236] [ [39mDEBUG[0;39m ] [com.mesa.gamebot.Main.main()] n.d.j.a.u.SessionControllerAdapter: Running worker
+[2023-02-07 02:45:20,236] [ [39mDEBUG[0;39m ] [ConcurrentSessionController-Worker-0] n.d.j.a.u.SessionControllerAdapter: Running connect node for shard JDA.ShardInfo(currentShard=[0 / 1], totalShards=1)
+[2023-02-07 02:45:20,474] [ [34mINFO [0;39m ] [JDA MainWS-WriteThread] n.d.j.i.requests.WebSocketClient: Connected to WebSocket
+[2023-02-07 02:45:20,474] [ [39mDEBUG[0;39m ] [JDA MainWS-WriteThread] n.d.j.i.requests.WebSocketClient: Connected with gateway intents: 11011011011001111
+[2023-02-07 02:45:20,474] [ [39mDEBUG[0;39m ] [JDA MainWS-WriteThread] n.d.j.i.requests.WebSocketClient: Sending Identify-packet...
+[2023-02-07 02:45:20,478] [ [39mDEBUG[0;39m ] [JDA MainWS-ReadThread] n.d.j.i.requests.WebSocketClient: Got HELLO packet (OP 10). Initializing keep-alive.
+[2023-02-07 02:45:20,698] [ [39mDEBUG[0;39m ] [JDA MainWS-ReadThread] n.d.j.i.handle.GuildSetupController: Setting incomplete count to 1
+[2023-02-07 02:45:20,699] [ [39mDEBUG[0;39m ] [JDA MainWS-ReadThread] n.d.j.i.handle.GuildSetupController: Starting 75 second timeout for 1 guilds
+[2023-02-07 02:45:20,748] [ [39mDEBUG[0;39m ] [JDA MainWS-ReadThread] n.d.j.i.entities.EntityBuilder: Finished setup for guild with a null owner. GuildId: 418433461817180180 OwnerId: 604779545018761237
+[2023-02-07 02:45:20,751] [ [34mINFO [0;39m ] [JDA MainWS-ReadThread] net.dv8tion.jda.api.JDA: Finished Loading!
+[2023-02-07 02:45:20,752] [ [39mDEBUG[0;39m ] [JDA MainWS-ReadThread] n.d.j.i.handle.GuildSetupController: Finished setup for guild 418433461817180180 firing cached events 0
+[2023-02-07 02:45:20,962] [ [39mDEBUG[0;39m ] [JDA RateLimit-Worker 1] n.d.j.internal.requests.RateLimiter: Caching bucket hash Route[PUT](route=applications/{application_id}/guilds/{guild_id}/commands) -> a3b974ef6eb1c925dd4ceb42f4db26fd
+[2023-02-07 02:45:20,963] [ [39mDEBUG[0;39m ] [JDA RateLimit-Worker 1] n.d.jda.internal.requests.Requester: Received response with following cf-rays: [795872111c15d67a-CDG]
+[2023-02-07 02:45:21,247] [ [39mDEBUG[0;39m ] [JDA Gateway-Worker 1] n.d.j.i.requests.WebSocketClient: Sending normal message {"op":3,"d":{"activities":[{"name":"cc","type":0}],"afk":false,"since":1675734320775,"status":"online"}}
+[2023-02-07 02:45:21,261] [ [39mDEBUG[0;39m ] [JDA RateLimit-Worker 2] n.d.j.internal.requests.RateLimiter: Caching bucket hash Route[PUT](route=applications/{application_id}/commands) -> a3b974ef6eb1c925dd4ceb42f4db26fd
+[2023-02-07 02:45:21,262] [ [39mDEBUG[0;39m ] [JDA RateLimit-Worker 2] n.d.jda.internal.requests.Requester: Received response with following cf-rays: [795872111c14d67a-CDG]
+[2023-02-07 02:45:33,693] [ [39mDEBUG[0;39m ] [JDA RateLimit-Worker 3] n.d.jda.internal.requests.Requester: Received response with following cf-rays: [79587260c8b42a3f-CDG]
+[2023-02-07 02:45:34,071] [ [39mDEBUG[0;39m ] [JDA RateLimit-Worker 1] n.d.jda.internal.requests.Requester: Received response with following cf-rays: [79587261c95b2a3f-CDG]
+[2023-02-07 02:45:49,834] [ [39mDEBUG[0;39m ] [JDA RateLimit-Worker 4] n.d.j.internal.requests.RateLimiter: Removed 4 expired buckets
+[2023-02-07 02:46:19,834] [ [39mDEBUG[0;39m ] [JDA RateLimit-Worker 4] n.d.j.internal.requests.RateLimiter: Removed 2 expired buckets
